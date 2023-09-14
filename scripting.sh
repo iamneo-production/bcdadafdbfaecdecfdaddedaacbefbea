@@ -17,3 +17,14 @@ read month
 echo "Enter birth year(YYYY):"
 read year
 echo $day-$month-$year
+
+echo "Enter num1:"
+read num1
+echo "Enter num2:"
+read num2
+total=$[num1+num2]
+if [[ "$total" > "70" ]];then
+echo "Pass"
+else
+echo "Fail"
+fi;
