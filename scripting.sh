@@ -5,6 +5,12 @@ touch /home/coder/"$file_name"
 
 echo "new content " >new_file.txt
 
-mkdir new_folder
-touch changes.txt
-chmod 
+mkdir new_folder1
+touch changes1.txt
+chmod 444 new_folder1
+chmod 444 changes1.txt
+
+mkdir new_folder1
+touch changes1.txt
+chmod 444 new_folder1
+chmod 444 changes1.txt
