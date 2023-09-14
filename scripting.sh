@@ -3,3 +3,6 @@ file_name="my_file.txt"
 mkdir /home/coder/"$folder_name"
 touch /home/coder/"$file_name"
 
+echo "new content " >new_file.txt
+
+ 
