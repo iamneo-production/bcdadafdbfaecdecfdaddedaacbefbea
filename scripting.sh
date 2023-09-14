@@ -5,12 +5,15 @@ touch /home/coder/"$file_name"
 
 echo "new content " >new_file.txt
 
-mkdir new_folder1
-touch changes1.txt
-chmod 444 new_folder1
-chmod 444 changes1.txt
+mkdir /home/new_folder1
+touch /home/changes1.txt
+chmod 644 new_folder1
+chmod 744 changes1.txt
 
-mkdir /home/new_folder2
-touch /home/changes2.txt
-chmod 444 new_folder1
-chmod 444 changes1.txt
+echo "Enter birth date(DD):"
+read day
+echo "Enter birth month(MM):"
+read month
+echo "Enter birth year(YYYY):"
+read year
+echo $day-$month-$year
